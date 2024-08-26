@@ -49,37 +49,37 @@ const Perfil = () => {
             <h4 className="text-[24px] font-medium leading-[36px] font-poppins text-preto mb-[16px]">Fotos</h4>
               <div className="w-[454px] h-[240px] mb-[16px]">
                 <h6 className="text-[16px] font-bold leading-[24px] font-poppins text-preto w-full h-[24px] mb-[15px]">
-                  Selecione três fotos para compor o seu perfil.
+                  Selecione no mínimo 5 fotos para o perfil do seu Hotel.
                 </h6>
                 <ul>
                   <li className="flex gap-2 mb-[15px]">
                     <span className="w-[27px] h-[27px] bg-[url('/right.png')] bg-no-repeat bg-contain inline-block shrink-0" aria-hidden="true"></span>
                     <span className="text-[16px] font-normal leading-[24px] font-poppins text-preto">
-                      Vamos começar com a foto principal! Com postura formal e rosto bem aparente.
+                      Explore suas comodidades!
                     </span>
                   </li>
                   <li className="flex gap-2 mb-[15px]">
                     <span className="w-[27px] h-[27px] bg-[url('/right.png')] bg-no-repeat bg-contain inline-block shrink-0" aria-hidden="true"></span>
                     <span className="text-[16px] font-normal leading-[24px] font-poppins text-preto">
-                      Que tal uma foto mais descontraída? Experimente postar uma foto sua praticando algum hobby!
+                      Que tal explorar a paisagem do seu estabeçecimento?
                     </span>
                   </li>
                   <li className="flex gap-2">
                     <span className="w-[27px] h-[27px] bg-[url('/right.png')] bg-no-repeat bg-contain inline-block shrink-0" aria-hidden="true"></span>
                     <span className="text-[16px] font-normal leading-[24px] font-poppins text-preto">
-                      Por último, seria interessante uma foto sua com algum ente querido. Seja um amigo, familiar, ou com seu pet!
+                      As fotos são muito importantes para o primeiro contato do hóspede com o seu Hotel, escolha sempre as fotos mais nítidas e atraentes!
                     </span>
                   </li>
                 </ul>
             </div>
           </div>
           </div>
-          <div className="top-[284px] w-[639px] h-[611px] flex flex-col items-center justify-center mt-[40px] left-[772px]">
+          <div className="top-[284px] w-[639px] h-[611px] flex flex-col items-center mt-[40px] left-[772px]">
             <div className="border-2 border-dashed border-[#AB9C9F] w-[639px] h-[514px] rounded-[10px] flex items-center mb-[20px] p-[176px_128px_176px_128px]">
               <Image src="/img.png" alt="Botar fotos" width={340} height={57}  onClick={handleImageClick} className="hover:content-[url('/image_hover.png')]" />
               <input type="file" ref={fileInputRef} onChange={handleFileChange} multiple className="hidden" />
             </div>
-            <Link href="/perfil/Editar-perfil">
+            <Link href="/hotel/adicionarinfo">
               <button className="mt-[20px] py-[15px] px-[20px] bg-rosa-4 text-white w-[340px] h-[57px] flex items-center justify-around gap-[10px] font-poppins text-[24px] font-normal rounded-[10px] leading-9  hover:bg-[#F42C46] -tracking-2">
                 Salvar Alterações
               </button>

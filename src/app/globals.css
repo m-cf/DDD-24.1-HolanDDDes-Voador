@@ -16,6 +16,10 @@
   }
 }
 
+main {
+  padding-top: 80px; /* Ajuste conforme necessário */
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

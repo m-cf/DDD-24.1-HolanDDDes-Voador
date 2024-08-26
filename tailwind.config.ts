@@ -8,10 +8,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      listStyleImage: {
+        right: 'url("/public/right.png")',
+      },
+      colors: {
+        "rosa 1": "#FFEDF0",
+        "rosa 2": "#F45065",
+        "rosa-3": "#F42C46",
+        "rosa-4": "#DC143B",
+        "preto": "#372F30",
+        "branco": "#FBFBFB",
+        "branco-2": "#F7F3F3",
+        "cinza-1": "#CEC6C7",
+        "cinza-2": "#AB9C9F",
+        "cinza-3": "#574A4D",
+        "cinza-4": "#372F30",
+      },
+      fontFamily: {
+        poppins: ["var(--font-poppins)"],
+        readex_pro: ["var(--font-readex-pro)"],
+        work_sans: ["var(--font-work-sans)"],
       },
     },
   },

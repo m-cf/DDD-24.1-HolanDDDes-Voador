@@ -1,3 +1,3 @@
-import icons from "@/constants/icons";
+import icons from "./icons";
 
 export { icons };
