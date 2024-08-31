@@ -7,12 +7,11 @@ import Link from 'next/link';
 const Hotel = () => {
   return (
     <>
-    < meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
       <LoggedHeader />
-      <main className="flex items-center justify-center px-4">
-      <div className="relative mt-8 flex flex-col md:flex-row justify-around w-full h-full">
-      <div className="md:w-1/3 bg:rosa-4 h-screen flex flex-col items-center justify-center gap-[32px]">
-            <div className="bg-[#D9D9D9] w-[430px] h-[466px] rounded-[10px] flex items-center justify-center">
+      <main className="flex pt-[80px]">
+      <div className="flex w-11/12 h-full justify-around">
+      <div className="w-1/4 h-screen fixed left-[88px] top-[30px] flex flex-col items-center justify-center gap-[32px]">
+            <div className="bg-[#D9D9D9]  p-[176px_128px] w-[430px] h-[466px] rounded-[10px] flex items-center justify-center">
               <Image src="/hotel_image.png" alt="Botar fotos" width={123.5} height={104.5}/>
             </div>
             <button className="py-[15px] px-[182px] bg-cinza-2 w-[340px] h-[57px] flex items-center justify-center gap-[10px] text-white whitespace-nowrap font-poppins text-[24px] font-normal rounded-[10px] -tracking-2 leading-9">
@@ -56,7 +55,7 @@ const Hotel = () => {
             </div>
             </div>
             <Link href="/hotel/adicionarinfo" passHref>
-                <button className="mt-5 mb-5 py-6 px-[20px] bg-rosa-4 text-white w-[340px] h-[57px] flex items-center justify-around gap-[10px] font-poppins text-2xl font-normal rounded-[10px] leading-9  hover:bg-rosa-3 -tracking-2">
+                <button className="mt-[32px] py-[15px] px-[20px] bg-rosa-4 text-white w-[340px] h-[57px] text-center gap-[10px] font-poppins text-[24px] font-normal leading-9 rounded-[10px] hover:bg-[#F42C46] -tracking-2">
                 Comece agora!
                 </button>
             </Link>
